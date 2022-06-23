@@ -1,3 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Quicksand:wght@300&display=swap");
 * {
   padding: 0;
   margin: 0; }
+
+body {
+  width: 100vw;
+  background-image: url("../img/fondo-palmeras.jpg");
+  filter: opacity(100%);
+  background-size: 100% 120%;
+  background-repeat: no-repeat; }
+
+.navbar {
+  background-color: #f5f5dca1 !important; }
+  .navbar .navbar-toggler {
+    color: #d4bea932;
+    border-radius: 5px #f6f6e9c7; }
+  .navbar .collapse {
+    justify-content: end; }
+    .navbar .collapse .navbar-nav {
+      align-items: flex-end; }
+      .navbar .collapse .navbar-nav .nav-link {
+        font-family: "Quicksand", sans-serif;
+        font-weight: bold;
+        background-color: #d4bea965;
+        color: antiquewhite;
+        margin: 5px;
+        padding: 3px;
+        border-radius: 5px;
+        text-align: center;
+        width: 150px; }
+        .navbar .collapse .navbar-nav .nav-link:hover {
+          background-color: #f6f6e9c7;
+          color: #a1866c9f; }
+      .navbar .collapse .navbar-nav .dropdown-menu {
+        background-color: #d4bea971;
+        border: 0px; }
+        .navbar .collapse .navbar-nav .dropdown-menu .dropdown-item {
+          color: antiquewhite;
+          font-family: "Quicksand", sans-serif;
+          font-weight: bold; }
+          .navbar .collapse .navbar-nav .dropdown-menu .dropdown-item:hover {
+            background-color: #f6f6e9c7;
+            color: #a1866c9f; }
