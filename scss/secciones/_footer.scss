@@ -1,0 +1,22 @@
+footer {
+    background-image: linear-gradient(to top right, #f5f5dcc4, #d4bea9ac, #f5f5dcc4);
+    padding: 35px;
+    height: 25%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .redes {
+        display: flex;
+        flex-direction: row;
+
+        a {
+            padding: 10px;
+            font-size: 50px;
+            color: #be9e80;
+            text-align: center;
+            text-decoration: none;
+        }
+    }
+}

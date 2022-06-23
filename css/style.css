@@ -42,3 +42,253 @@ body {
           .navbar .collapse .navbar-nav .dropdown-menu .dropdown-item:hover {
             background-color: #f6f6e9c7;
             color: #a1866c9f; }
+
+footer {
+  background-image: linear-gradient(to top right, #f5f5dcc4, #d4bea9ac, #f5f5dcc4);
+  padding: 35px;
+  height: 25%;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  footer .redes {
+    display: flex;
+    flex-direction: row; }
+    footer .redes a {
+      padding: 10px;
+      font-size: 50px;
+      color: #be9e80;
+      text-align: center;
+      text-decoration: none; }
+
+.sectionhome {
+  display: flex; }
+  .sectionhome .imghome img {
+    width: 400px;
+    margin: 10px 100px;
+    padding: 15px;
+    background-color: #a1866c62;
+    border-radius: 3px; }
+  .sectionhome .textohome p {
+    background-color: #f6f6e9c7;
+    color: #a1866c;
+    font-family: "Quicksand", sans-serif;
+    font-size: 25px;
+    width: 600px;
+    margin: 50px 0px 20px 30px;
+    padding: 30px;
+    padding-bottom: 80px;
+    border-radius: 3px; }
+  .sectionhome .textohome .buttonconocenos {
+    margin-top: -80px; }
+    .sectionhome .textohome .buttonconocenos a {
+      font-family: "Quicksand", sans-serif;
+      font-size: 18px;
+      margin-left: 400px;
+      text-decoration: none;
+      background-color: #f5f5dc51;
+      color: #c2a48afe;
+      font-weight: 600;
+      padding: 5px 25px 5px 25px;
+      border-radius: 12px;
+      border: 2px #8e7d6efe; }
+      .sectionhome .textohome .buttonconocenos a:hover {
+        background-color: #a1866c;
+        color: #f5f5e8d8;
+        font-weight: bold; }
+
+.basehome {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .basehome img {
+    width: 280px;
+    height: auto;
+    padding: 10px;
+    margin: 50px 30px 100px 50px;
+    background-color: #a1866c62; }
+    .basehome img:hover {
+      transform: scale(1.2);
+      transition: 1.2s;
+      cursor: pointer; }
+  .basehome .buttontienda {
+    display: inline-flex; }
+    .basehome .buttontienda a {
+      text-align: center;
+      margin: 500px 30px 400px 20px;
+      text-decoration: none;
+      font-family: "Quicksand", sans-serif;
+      font-size: 18px;
+      display: inline-block;
+      margin: 5px 0px 0px 10px;
+      background-color: #f5f5dc51;
+      color: #c2a48afe;
+      font-weight: 600;
+      padding: 5px 25px 5px 25px;
+      border-radius: 12px;
+      border-color: 2px #8e7d6efe; }
+      .basehome .buttontienda a:hover {
+        background-color: #a1866c;
+        color: #f5f5e8d8;
+        font-weight: bold; }
+
+.esencia {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 30px; }
+  .esencia p {
+    background-color: #f6f6e9c7;
+    color: #a1866c;
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+    width: 500px;
+    padding: 30px;
+    padding-bottom: 80px;
+    margin: 50px; }
+  .esencia img {
+    width: 450px;
+    margin: 50px;
+    padding: 10px;
+    background-color: #a1866c62; }
+
+main img {
+  width: 100px;
+  margin-left: 450px;
+  margin-top: -330px; }
+
+.parrafoobjetos {
+  display: block;
+  text-align: justify;
+  padding: 22px;
+  margin: 40px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  background-color: rgba(246, 246, 233, 0.779);
+  color: #a1866c; }
+
+.imgobjetos {
+  display: flex;
+  align-items: center;
+  margin: 20px; }
+  .imgobjetos .caja {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .imgobjetos .caja img {
+      background-color: #a1866c62;
+      width: 210px;
+      height: auto;
+      padding: 5px;
+      margin: 40px 40px 10px 40px; }
+    .imgobjetos .caja .textobjetos {
+      font-family: 'Quicksand', sans-serif;
+      font-size: 15px;
+      font-weight: bold;
+      display: inline-block;
+      background-color: rgba(245, 245, 220, 0.576);
+      color: #a1866cd0;
+      padding: 3px; }
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 10px 10px 60px; }
+  .container .card {
+    padding: 5px;
+    width: 250px;
+    height: 380px;
+    border-radius: 8px;
+    box-shadow: 0 .5px .5px;
+    overflow-y: hidden;
+    margin: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #f5f5dc97;
+    align-items: center; }
+    .container .card img {
+      padding: 2px;
+      width: 200px;
+      height: 250px; }
+    .container .card p {
+      font-family: "Quicksand", sans-serif;
+      background-color: #f5f5dca9;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 5px 2px 5px 2px;
+      margin: 2px;
+      color: #a1866c;
+      border-radius: 3px; }
+    .container .card h4 {
+      font-family: "Quicksand", sans-serif;
+      color: #a1866c;
+      font-weight: bold;
+      font-size: 18px;
+      margin: 8px 0 8px;
+      padding: 2px;
+      background-color: #f5f5dca9;
+      border-radius: 3px; }
+    .container .card a {
+      text-decoration: none;
+      color: #f5f5dca9;
+      font-size: 15px;
+      font-family: "Quicksand", sans-serif;
+      background-color: #a1866ca0;
+      border-radius: 5px;
+      padding: 4px;
+      margin: 2px; }
+      .container .card a:hover {
+        box-shadow: 0 3px 4px 0;
+        transform: scale(1.1);
+        background-color: #f5f5dca9;
+        color: #a1866ca0;
+        font-weight: bold;
+        transition: 0.5s; }
+
+.form {
+  width: 100%; }
+  .form form {
+    display: inline-block;
+    padding: 30px;
+    margin-left: 350px;
+    margin-bottom: 30px;
+    background-color: rgba(245, 245, 220, 0.445);
+    color: #d4bea9de;
+    border: #d4bea9de solid 2px;
+    border-radius: 3px;
+    font-family: "Quicksand", sans-serif;
+    align-items: center; }
+    .form form input {
+      margin: 5px;
+      border: #d4bea9de solid 2px;
+      border-radius: 5px; }
+    .form form textarea {
+      margin: 5px;
+      border: #d4bea9de solid 2px;
+      border-radius: 5px; }
+    .form form button {
+      background-color: #f5f5dc51;
+      color: #c2a48afe;
+      font-weight: 600;
+      padding: 5px 25px 5px 25px;
+      border-radius: 12px;
+      border-color: #d4bea9fe;
+      margin-left: 180px; }
+      .form form button:hover {
+        background-color: #a1866c;
+        color: #f5f5e8d8;
+        font-weight: bold; }
+
+.titulo {
+  display: block; }
+  .titulo h2 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 2rem;
+    background-color: #f5f5dc71;
+    color: #d4bea9de;
+    text-align: left;
+    padding: 20px;
+    margin: 15px; }
