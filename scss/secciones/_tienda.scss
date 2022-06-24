@@ -16,9 +16,9 @@
         margin-bottom: 50px;
         text-align: center;
         transition: all 0.25s;
-        background-color: #f5f5dc97;
+        background-color: $basetexto;
         align-items: center;
-    
+
         img {
             padding: 2px;
             width: 200px;
@@ -27,45 +27,44 @@
 
         p {
             font-family: $quicksand;
-            background-color: #f5f5dca9;
-            font-size: 14px;
-            font-weight: bold;
+            background-color: $basetexto;
+            font-size: 16px;
             padding: 5px 2px 5px 2px;
             margin: 2px;
-            color: #a1866c;
+            color: $marronfuerte;
             border-radius: 3px;
         }
 
         h4 {
             font-family: $quicksand;
-            color: #a1866c;
-            font-weight: bold;
+            color: $marronfuerte;
             font-size: 18px;
             margin: 8px 0 8px;
             padding: 2px;
-            background-color: #f5f5dca9;
+            background-color: $basetexto;
             border-radius: 3px;
-        
+
         }
 
         a {
             text-decoration: none;
-            color: #f5f5dca9;
+            color: $basetexto;
             font-size: 15px;
             font-family: $quicksand;
-            background-color: #a1866ca0;
+            background-color: $marronfuerte;
             border-radius: 5px;
             padding: 4px;
             margin: 2px;
-            &:hover{
+
+            &:hover {
                 box-shadow: 0 3px 4px 0;
-    transform: scale(1.1);
-    background-color: #f5f5dca9;
-    color: #a1866ca0;
-    font-weight: bold;
-    transition: 0.5s;
+                transform: scale(1.1);
+                background-color: $basetexto;
+                color: $marronfuerte;
+                font-weight: bold;
+                transition: 0.5s;
             }
-        
+
         }
     }
 

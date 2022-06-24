@@ -5,8 +5,7 @@
     margin: 40px;
     font-family: $quicksand;
     font-size: 15px;
-    background-color: rgba(246, 246, 233, 0.779);
-    color: #a1866c;
+    @extend %parrafos;
 }
 
 .imgobjetos {
@@ -20,10 +19,10 @@
         align-items: center;
     
         img {
-            background-color: #a1866c62;
+            background-color: $marronmedio;
             width: 210px;
             height: auto;
-            padding: 5px;
+            padding: 6px;
             margin: 40px 40px 10px 40px;
         }
 
@@ -33,9 +32,9 @@
             font-size: 15px;
             font-weight: bold;
             display: inline-block;
-            background-color: rgba(245, 245, 220, 0.576);
-            color: #a1866cd0;
-            padding: 3px;
+            background-color: $basetexto;
+            color: $marronfuerte;
+            padding: 4px;
         }
     }
 }

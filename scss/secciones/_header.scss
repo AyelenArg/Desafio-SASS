@@ -1,9 +1,9 @@
 .navbar {
-    background-color: #f5f5dca1 !important;
+    background-color: $basetexto !important;
 
     .navbar-toggler {
-        color: #d4bea932;
-        border-radius: 5px #f6f6e9c7;
+        color: $marronmedio;
+        border-radius: 5px $basetexto;
     }
 
     .collapse {
@@ -15,8 +15,8 @@
             .nav-link {
                 font-family: $quicksand;
                 font-weight: bold;
-                background-color: #d4bea965;
-                color: antiquewhite;
+                background-color: $marronmedio;
+                color: $basetexto;
                 margin: 5px;
                 padding: 3px;
                 border-radius: 5px;
@@ -24,23 +24,23 @@
                 width: 150px;
 
                 &:hover {
-                    background-color: #f6f6e9c7;
-                    color: #a1866c9f;
+                    background-color: $basetexto;
+                    color: $marronfuerte;
                 }
             }
 
             .dropdown-menu {
-                background-color: #d4bea971;
+                background-color: $marronmedio;
                 border: 0px;
 
                 .dropdown-item {
-                    color: antiquewhite;
+                    color: $basetexto;
                     font-family: $quicksand;
                     font-weight: bold;
 
                     &:hover {
-                        background-color: #f6f6e9c7;
-                        color: #a1866c9f;
+                        background-color: $basetexto;
+                        color: $marronfuerte;
                     }
                 }
             }

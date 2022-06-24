@@ -1,11 +1,11 @@
 .titulo {
     display: block;
 
-h2 {
+h1{
     font-family: $quicksand;
     font-size: 2rem;
-    background-color: #f5f5dc71;
-    color: #d4bea9de;
+    background-color: $basetexto;
+    color: $marronmedio;
     text-align: left;
     padding: 20px;
     margin: 15px;

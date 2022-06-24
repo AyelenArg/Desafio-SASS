@@ -6,8 +6,8 @@
 
     p {
 
-        background-color: #f6f6e9c7;
-        color: #a1866c;
+        background-color: $basetexto;
+        color: $marronfuerte;
         font-size: 20px;
         font-family: $quicksand;
         width: 500px;
@@ -22,7 +22,7 @@
         width: 450px;
         margin: 50px;
         padding: 10px;
-        background-color: #a1866c62;
+        background-color: $marronmedio;
     }
 }
 main img {
