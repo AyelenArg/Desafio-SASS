@@ -4,8 +4,9 @@
 }
 
 @import './variables/tipografias';
-@import './variables/tamanios';
 @import './variables/colores';
+@import './variables/extend';
+@import './variables/mixin';
 
 
 @import './secciones/body';
@@ -16,4 +17,4 @@
 @import './secciones/objetos';
 @import './secciones/tienda';
 @import './secciones/contacto';
-@import './secciones/titulos'
+@import './secciones/titulos';

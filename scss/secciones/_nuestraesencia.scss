@@ -6,9 +6,7 @@
 
     p {
 
-        background-color: $basetexto;
-        color: $marronfuerte;
-        font-size: 20px;
+        @extend %parrafos;
         font-family: $quicksand;
         width: 500px;
         padding: 30px;
