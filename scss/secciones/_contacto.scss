@@ -13,16 +13,29 @@
         font-family: $quicksand;
         align-items: center;
 
+
         input {
             margin: 5px;
-            border: $marronmedio solid 2px;
+            border: solid 2px $marronmedio;
             border-radius: 5px;
-        }
+
+            &:focus{
+                outline-color: $marronfuerte;
+            }
+                }
+                label{
+                    color: $marronfuerte;
+                }
+       
 
         textarea {
             margin: 5px;
             border: $marronmedio solid 2px;
             border-radius: 5px;
+
+            &:focus{
+                outline-color: $marronfuerte;
+            }
         }
 
         button {
@@ -37,9 +50,8 @@
                 font-weight: bold;
             }
         }
+       
     }
-
-
 
 
 
