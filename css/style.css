@@ -8,8 +8,13 @@
   color: #a1866c;
   font-size: 25px; }
 
+@media (max-width: 480px) {
+  .sectionhome .textohome p, .esencia p, .parrafoobjetos {
+    font-size: 11px; } }
+
 body {
   width: 100vw;
+  max-height: 100vh;
   background-image: url("../img/fondo-palmeras.jpg");
   filter: opacity(100%);
   background-size: 100% 120%;
@@ -49,14 +54,18 @@ body {
             background-color: #fdfdf6cd;
             color: #a1866c; }
 
+@media (max-width: 480px) {
+  nav div a img {
+    width: 80px; } }
+
 footer {
   background-image: linear-gradient(to top right, #fdfdf6cd, #d4bea97e, #fdfdf6cd);
   padding: 35px;
   height: 25%;
-  width: 100vw;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  margin-top: auto; }
   footer .redes {
     display: flex;
     flex-direction: row; }
@@ -66,6 +75,15 @@ footer {
       color: #a1866c;
       text-align: center;
       text-decoration: none; }
+
+@media (max-width: 480px) {
+  footer {
+    padding: 20px;
+    margin-bottom: 0px; }
+    footer div a img {
+      width: 80px; }
+    footer .redes a {
+      font-size: 20px; } }
 
 .sectionhome {
   display: flex; }
@@ -135,6 +153,33 @@ footer {
         color: #fdfdf6cd;
         font-weight: bold; }
 
+@media (max-width: 480px) {
+  .sectionhome .imghome img {
+    width: 150px;
+    margin: 50px 20px 40px;
+    padding: 4px; }
+  .sectionhome .textohome p {
+    font-size: 12px;
+    width: 200px;
+    margin: 10px 0px 30px 10px;
+    padding: 20px; }
+  .sectionhome .textohome .buttonconocenos {
+    font-size: 11px;
+    margin: -60px -300px; }
+    .sectionhome .textohome .buttonconocenos a {
+      font-size: 12px; }
+  .basehome {
+    flex-wrap: wrap;
+    margin: 30px 0px 50px; }
+    .basehome img {
+      width: 150px;
+      padding: 5px;
+      margin: 60px 20px 20px 50px; }
+    .basehome .buttontienda a {
+      margin: 20px 20px 10px 20px;
+      font-size: 15px;
+      padding: 15px 25px 15px 25px; } }
+
 .esencia {
   display: flex;
   flex-direction: row;
@@ -157,13 +202,27 @@ main img {
   margin-left: 450px;
   margin-top: -330px; }
 
+@media (max-width: 480px) {
+  .esencia p {
+    width: 200px;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin: 10px; }
+  .esencia img {
+    width: 180px;
+    margin: 10px;
+    padding: 5px; }
+  main img {
+    width: 50px;
+    margin-left: 170px;
+    margin-top: -140px; } }
+
 .parrafoobjetos {
   display: block;
   text-align: justify;
   padding: 22px;
   margin: 40px;
-  font-family: "Quicksand", sans-serif;
-  font-size: 15px; }
+  font-family: "Quicksand", sans-serif; }
 
 .imgobjetos {
   display: flex;
@@ -180,13 +239,29 @@ main img {
       padding: 6px;
       margin: 40px 40px 10px 40px; }
     .imgobjetos .caja .textobjetos {
-      font-family: 'Quicksand', sans-serif;
+      font-family: "Quicksand", sans-serif;
       font-size: 15px;
       font-weight: bold;
       display: inline-block;
       background-color: #fdfdf6cd;
       color: #a1866c;
       padding: 4px; }
+
+@media (max-width: 480px) {
+  .parrafoobjetos {
+    padding: 18px;
+    margin: 30px; }
+  .imgobjetos {
+    flex-wrap: wrap;
+    margin: 10px; }
+    .imgobjetos .caja img {
+      width: 150px;
+      height: auto;
+      padding: 4px;
+      margin: 20px 20px 10px 20px; }
+    .imgobjetos .caja .textobjetos {
+      font-size: 11px;
+      padding: 4px; } }
 
 .container {
   width: 100%;
@@ -244,6 +319,31 @@ main img {
         font-weight: bold;
         transition: 0.3s; }
 
+@media (max-width: 480px) {
+  .container {
+    margin: 10px 10px 10px 10px; }
+    .container .card {
+      padding: 1px;
+      width: 120px;
+      height: 230px;
+      margin: 10px;
+      margin-bottom: 50px; }
+      .container .card img {
+        padding: 1px;
+        width: 110px;
+        height: 250px; }
+      .container .card p {
+        font-size: 11px;
+        padding: 0px 2px 0px 0px;
+        margin: 0px; }
+      .container .card h4 {
+        font-size: 12px;
+        margin: 1px 0 2px;
+        padding: 1px; }
+      .container .card a {
+        font-size: 11px;
+        margin: 1px; } }
+
 .form {
   width: 100%; }
   .form form {
@@ -284,6 +384,19 @@ main img {
         color: #fdfdf6cd;
         font-weight: bold; }
 
+@media (max-width: 480px) {
+  .form form {
+    width: 80%;
+    margin-left: 50px;
+    padding: 5px; }
+    .form form input {
+      margin: 1px; }
+    .form form textarea {
+      width: 85%;
+      margin: 25px; }
+    .form form button {
+      margin-left: 120px; } }
+
 .titulo {
   display: block; }
   .titulo h1 {
@@ -294,3 +407,9 @@ main img {
     text-align: left;
     padding: 20px;
     margin: 15px; }
+
+@media (max-width: 480px) {
+  .titulo h1 {
+    font-size: 1rem;
+    padding: 10px;
+    margin: 10px; } }

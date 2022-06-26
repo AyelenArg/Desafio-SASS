@@ -67,3 +67,46 @@
     }
 
 }
+
+@media (max-width: 480px){
+    .container {
+
+        margin: 10px 10px 10px 10px;
+    
+        .card {
+            padding: 1px;
+            width: 120px;
+            height: 230px;
+            margin: 10px;
+            margin-bottom: 50px;
+    
+            img {
+                padding: 1px;
+                width: 110px;
+                height: 250px;
+            }
+    
+            p {
+                font-size: 11px;
+                padding: 0px 2px 0px 0px;
+                margin: 0px;
+               
+            }
+    
+            h4 {
+                font-size: 12px;
+                margin: 1px 0 2px;
+                padding: 1px;
+       
+    
+            }
+    
+            a {
+                font-size: 11px;
+                margin: 1px;
+    
+            }
+        }
+    
+    }
+}

@@ -4,7 +4,6 @@
     padding: 22px;
     margin: 40px;
     font-family: $quicksand;
-    font-size: 15px;
     @extend %parrafos;
 }
 
@@ -28,13 +27,41 @@
 
         .textobjetos {
 
-            font-family: 'Quicksand', sans-serif;
+            font-family: $quicksand;
             font-size: 15px;
             font-weight: bold;
             display: inline-block;
             background-color: $basetexto;
             color: $marronfuerte;
             padding: 4px;
+        }
+    }
+}
+
+@media (max-width:480px){
+    .parrafoobjetos {
+        padding: 18px;
+        margin: 30px;
+    }
+    
+    .imgobjetos {
+        flex-wrap: wrap;
+        margin: 10px;
+    
+        .caja {
+        
+            img {
+                
+                width: 150px;
+                height: auto;
+                padding: 4px;
+                margin: 20px 20px 10px 20px;
+            }
+    
+            .textobjetos {
+    font-size: 11px;
+               padding: 4px;
+            }
         }
     }
 }

@@ -48,6 +48,16 @@
     }
 
 
+}
 
-
+@media (max-width: 480px) {
+    nav{
+        div{
+            a{
+                img{
+                    width: 80px;
+                }
+            }
+        }
+    }
 }

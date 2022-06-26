@@ -52,9 +52,38 @@
         }
        
     }
+}
 
+@media (max-width: 480px){
+    .form {
+    
+        form {
+width: 80%;
+margin-left: 50px;
+            padding: 5px;
 
+    
+    
+            input {
+                margin: 1px;
+           
+        }
+        textarea {
+           width: 85%;
+             margin: 25px;
+ 
+         
+         }
+ 
+         button {
+             margin-left: 120px;
 
-
-
+         }
+    
+    
+    
+    
+    
+    }
+}
 }

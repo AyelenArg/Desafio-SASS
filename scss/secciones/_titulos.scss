@@ -12,3 +12,16 @@ h1{
 
 }
 }
+
+@media (max-width: 480px){
+    .titulo {
+    
+    h1{
+        font-size: 1rem;
+        padding: 10px;
+        margin: 10px;
+    
+    }
+    }
+}
+

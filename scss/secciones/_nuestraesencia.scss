@@ -12,7 +12,7 @@
         padding: 30px;
         padding-bottom: 80px;
         margin: 50px;
-    
+
     }
 
     img {
@@ -23,8 +23,35 @@
         background-color: $marronmedio;
     }
 }
+
 main img {
     width: 100px;
     margin-left: 450px;
     margin-top: -330px;
+}
+
+@media (max-width: 480px) {
+    .esencia {
+        p {
+            width: 200px;
+            padding: 10px;
+            padding-bottom: 30px;
+            margin: 10px;
+
+        }
+
+        img {
+
+            width: 180px;
+            margin: 10px;
+            padding: 5px;
+
+        }
+    }
+
+    main img {
+        width: 50px;
+        margin-left: 170px;
+        margin-top: -140px;
+    }
 }
