@@ -388,15 +388,17 @@ main img {
 @media (max-width: 520px) {
   .form form {
     width: 75%;
+    height: 400px;
     margin-left: 65px;
     padding: 5px; }
     .form form input {
       margin: 2px; }
     .form form textarea {
       width: 85%;
-      margin: 25px; }
+      height: 40%;
+      margin: 0px 25px; }
     .form form button {
-      margin-left: 135px; } }
+      margin: 1px 135px; } }
 
 .titulo {
   display: block; }
