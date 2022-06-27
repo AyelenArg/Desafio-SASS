@@ -47,7 +47,7 @@
         }
 
         a {
-            @include button($marronmedio, $basetexto);
+            @include button($basetexto, $marronfuerte);
             text-decoration: none;
             font-size: 15px;
             font-family: $quicksand;
@@ -57,8 +57,8 @@
             &:hover {
                 box-shadow: 0 1px 2px 0;
                 transform: scale(1.05);
-                background-color: $basetexto;
-                color: $marronfuerte;
+                background-color: $marronmedio;
+                color: $basetexto;
                 font-weight: bold;
                 transition: 0.3s;
             }
@@ -68,10 +68,10 @@
 
 }
 
-@media (max-width: 480px){
+@media (max-width: 520px){
     .container {
 
-        margin: 10px 10px 10px 10px;
+        margin: 10px 10px 10px 30px;
     
         .card {
             padding: 1px;
