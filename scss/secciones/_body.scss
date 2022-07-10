@@ -6,5 +6,21 @@ body {
     background-size: 100% 120%;
     background-repeat: no-repeat;
     overflow: none;  
+
 }
+
+body::-webkit-scrollbar{
+    width: 9px;  
+    height: 10px;             /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: $basetexto        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: $marronmedio;    /* color of the scroll thumb */
+    border-radius: 10px;       /* roundness of the scroll thumb */
+    border: 1px solid $basetexto;  /* creates padding around scroll thumb */
+  }
 

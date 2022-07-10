@@ -21,6 +21,22 @@ body {
   background-repeat: no-repeat;
   overflow: none; }
 
+body::-webkit-scrollbar {
+  width: 9px;
+  height: 10px;
+  /* width of the entire scrollbar */ }
+
+body::-webkit-scrollbar-track {
+  background-color: #fdfdf6cd; }
+
+body::-webkit-scrollbar-thumb {
+  background-color: #d4bea97e;
+  /* color of the scroll thumb */
+  border-radius: 10px;
+  /* roundness of the scroll thumb */
+  border: 1px solid #fdfdf6cd;
+  /* creates padding around scroll thumb */ }
+
 .navbar {
   background-color: #fdfdf6cd !important; }
   .navbar .navbar-toggler {
