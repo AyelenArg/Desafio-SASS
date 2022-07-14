@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Quicksand:wght@300&display=swap");
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  scroll-behavior: smooth; }
 
 .sectionhome .textohome p, .esencia p, .parrafoobjetos {
   background-color: #fdfdf6cd;
@@ -29,6 +30,13 @@ body {
     background-color: #d4bea97e;
     border-radius: 10px;
     border: 1px solid #fdfdf6cd; }
+  body .fa-solid {
+    position: sticky;
+    font-size: 30px;
+    color: #d4bea97e;
+    cursor: pointer;
+    right: 30px;
+    bottom: 150px; }
 
 .navbar {
   background-color: #fdfdf6cd !important; }
