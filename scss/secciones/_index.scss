@@ -153,6 +153,10 @@
 
 //Mobile 375px
 @media(max-width: 375px){
+    main{
+        min-height: 161vh;
+        max-width: 375vw;
+    }
     .sectionhome {
         .imghome {
             img {

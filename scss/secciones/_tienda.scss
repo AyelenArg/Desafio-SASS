@@ -112,3 +112,44 @@
     
     }
 }
+
+//Mobile 375px
+@media (max-width: 375px){
+    .container {
+
+        margin: 12px;
+    
+        .card {
+            width: 150px;
+            height: 260px;
+            
+    
+            img {
+                width: 132px;
+                height: 192px;
+            }
+    
+            p {
+                font-size: 11px;
+                padding: 0px 2px 0px 0px;
+                margin: 0px;
+               
+            }
+    
+            h4 {
+                font-size: 12px;
+                margin: 1px 0 2px;
+                padding: 1px;
+       
+    
+            }
+    
+            a {
+                font-size: 11px;
+                margin: 1px;
+    
+            }
+        }
+    
+    }
+}

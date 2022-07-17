@@ -1,11 +1,13 @@
 .navbar {
     background-color: $basetexto !important;
+button{
+    border: none;
 
     .navbar-toggler {
-        color: $marronmedio;
-        border-radius: 5px $basetexto;
-    }
-
+        font-size: 18px;
+        font-weight: bold;
+        }
+}
     .collapse {
         justify-content: end;
 

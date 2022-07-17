@@ -36,7 +36,7 @@
     padding: 8px;
     margin: 8px; } }
 
-body {
+.body {
   width: 100vw;
   min-height: 100vh;
   background-image: url("../img/fondo-palmeras.jpg");
@@ -44,16 +44,16 @@ body {
   background-size: 100% 120%;
   background-repeat: no-repeat;
   overflow: none; }
-  body::-webkit-scrollbar {
+  .body::-webkit-scrollbar {
     width: 9px;
     height: 10px; }
-  body::-webkit-scrollbar-track {
+  .body::-webkit-scrollbar-track {
     background-color: #fdfdf6cd; }
-  body::-webkit-scrollbar-thumb {
+  .body::-webkit-scrollbar-thumb {
     background-color: #d4bea97e;
     border-radius: 10px;
     border: 1px solid #fdfdf6cd; }
-  body .fa-solid {
+  .body .fa-solid {
     position: sticky;
     font-size: 30px;
     color: #d4bea97e;
@@ -61,11 +61,17 @@ body {
     left: 15px;
     bottom: 150px; }
 
+@media (max-width: 375px) {
+  .body .fa-solid {
+    font-size: 20px; } }
+
 .navbar {
   background-color: #fdfdf6cd !important; }
-  .navbar .navbar-toggler {
-    color: #d4bea97e;
-    border-radius: 5px #fdfdf6cd; }
+  .navbar button {
+    border: none; }
+    .navbar button .navbar-toggler {
+      font-size: 18px;
+      font-weight: bold; }
   .navbar .collapse {
     justify-content: end; }
     .navbar .collapse .navbar-nav {
@@ -234,6 +240,9 @@ footer {
       padding: 15px 25px 15px 25px; } }
 
 @media (max-width: 375px) {
+  main {
+    min-height: 161vh;
+    max-width: 375vw; }
   .sectionhome .imghome img {
     width: 150px;
     margin: 55px 5px 5px;
@@ -302,20 +311,21 @@ main img {
     margin-left: 257px;
     margin-top: -183px; } }
 
-@media (max-width: 520px) {
+@media (max-width: 375px) {
   .esencia p {
-    width: 200px;
-    padding: 10px;
+    font-size: 12px;
+    width: 400px;
+    padding: 15px;
     padding-bottom: 30px;
-    margin: 10px; }
+    margin: 4px; }
   .esencia img {
-    width: 180px;
-    margin: 10px;
-    padding: 5px; }
+    width: 150px;
+    margin: 4px;
+    padding: 4px; }
   main img {
-    width: 50px;
-    margin-left: 170px;
-    margin-top: -140px; } }
+    width: 35px;
+    margin-left: 130px;
+    margin-top: -130px; } }
 
 .fondoobjetos {
   background-color: #fdfdf6cd; }
@@ -479,6 +489,27 @@ main img {
         font-size: 11px;
         margin: 1px; } }
 
+@media (max-width: 375px) {
+  .container {
+    margin: 12px; }
+    .container .card {
+      width: 150px;
+      height: 260px; }
+      .container .card img {
+        width: 132px;
+        height: 192px; }
+      .container .card p {
+        font-size: 11px;
+        padding: 0px 2px 0px 0px;
+        margin: 0px; }
+      .container .card h4 {
+        font-size: 12px;
+        margin: 1px 0 2px;
+        padding: 1px; }
+      .container .card a {
+        font-size: 11px;
+        margin: 1px; } }
+
 .form {
   width: 100%; }
   .form form {
@@ -523,7 +554,7 @@ main img {
   .form form {
     width: 60%;
     height: 400px;
-    margin: 80px;
+    margin: 50px;
     margin-left: 150px; }
     .form form input {
       margin: 2px;

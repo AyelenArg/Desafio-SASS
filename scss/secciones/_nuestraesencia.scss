@@ -57,28 +57,29 @@ main img {
     
 }
     }
-@media (max-width: 520px) {
+@media (max-width: 375px) {
     .esencia {
         p {
-            width: 200px;
-            padding: 10px;
+            font-size: 12px;
+            width: 400px;
+            padding: 15px;
             padding-bottom: 30px;
-            margin: 10px;
+            margin: 4px;
 
         }
 
         img {
 
-            width: 180px;
-            margin: 10px;
-            padding: 5px;
+            width: 150px;
+            margin: 4px;
+            padding: 4px;
 
         }
     }
 
     main img {
-        width: 50px;
-        margin-left: 170px;
-        margin-top: -140px;
+        width: 35px;
+        margin-left: 130px;
+        margin-top: -130px;
     }
 }
