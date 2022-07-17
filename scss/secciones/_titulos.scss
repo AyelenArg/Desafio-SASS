@@ -13,13 +13,26 @@ h1{
 }
 }
 
-@media (max-width: 520px){
+//TABLET
+@media (max-width: 768px){
+    .titulo {
+    
+        h1{
+            font-size: 1.3rem;
+            padding: 10px;
+            margin: 8px;
+        
+        }
+        }
+
+}
+@media (max-width: 375px){
     .titulo {
     
     h1{
-        font-size: 1rem;
-        padding: 10px;
-        margin: 10px;
+        font-size: 0.8rem;
+        padding: 8px;
+        margin: 8px;
     
     }
     }

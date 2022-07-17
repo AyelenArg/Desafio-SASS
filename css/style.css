@@ -13,6 +13,29 @@
   .sectionhome .textohome p, .esencia p, .parrafoobjetos {
     font-size: 11px; } }
 
+.titulo {
+  display: block; }
+  .titulo h1 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 2rem;
+    background-color: #fdfdf6cd;
+    color: #a1866c;
+    text-align: left;
+    padding: 20px;
+    margin: 15px; }
+
+@media (max-width: 768px) {
+  .titulo h1 {
+    font-size: 1.3rem;
+    padding: 10px;
+    margin: 8px; } }
+
+@media (max-width: 375px) {
+  .titulo h1 {
+    font-size: 0.8rem;
+    padding: 8px;
+    margin: 8px; } }
+
 body {
   width: 100vw;
   min-height: 100vh;
@@ -35,7 +58,7 @@ body {
     font-size: 30px;
     color: #d4bea97e;
     cursor: pointer;
-    right: 30px;
+    left: 15px;
     bottom: 150px; }
 
 .navbar {
@@ -71,9 +94,13 @@ body {
             background-color: #fdfdf6cd;
             color: #a1866c; }
 
-@media (max-width: 520px) {
+@media (max-width: 768px) {
   nav div a img {
-    width: 80px; } }
+    width: 100px; } }
+
+@media (max-width: 375px) {
+  nav div a img {
+    width: 70px; } }
 
 footer {
   background-image: linear-gradient(to top right, #fdfdf6cd, #d4bea97e, #fdfdf6cd);
@@ -93,14 +120,23 @@ footer {
       text-align: center;
       text-decoration: none; }
 
-@media (max-width: 520px) {
+@media (max-width: 768px) {
   footer {
     padding: 20px;
     margin-bottom: 0px; }
     footer div a img {
-      width: 80px; }
+      width: 120px; }
     footer .redes a {
-      font-size: 20px; } }
+      font-size: 22px; } }
+
+@media (max-width: 375px) {
+  footer {
+    padding: 10px;
+    margin-bottom: 0px; }
+    footer div a img {
+      width: 70px; }
+    footer .redes a {
+      font-size: 17px; } }
 
 .sectionhome {
   display: flex; }
@@ -170,19 +206,19 @@ footer {
         color: #fdfdf6cd;
         font-weight: bold; }
 
-@media (max-width: 520px) {
+@media (max-width: 768px) {
   .sectionhome .imghome img {
-    width: 150px;
-    margin: 50px 20px 40px;
-    padding: 4px; }
+    width: 280px;
+    margin: 50px 35px 40px;
+    padding: 7px; }
   .sectionhome .textohome p {
-    font-size: 12px;
-    width: 200px;
-    margin: 10px 0px 30px 10px;
-    padding: 20px; }
+    font-size: 14px;
+    width: 350px;
+    margin: 90px 0px 30px 10px;
+    padding: 30px; }
   .sectionhome .textohome .buttonconocenos {
     font-size: 11px;
-    margin: -60px -300px; }
+    margin: -60px -150px; }
     .sectionhome .textohome .buttonconocenos a {
       font-size: 12px; }
   .basehome {
@@ -191,11 +227,42 @@ footer {
     .basehome img {
       width: 150px;
       padding: 5px;
-      margin: 60px 20px 20px 50px; }
+      margin: 60px 10px 20px 40px; }
     .basehome .buttontienda a {
-      margin: 20px 20px 10px 60px;
-      font-size: 15px;
+      margin: 35px 20px 10px 20px;
+      font-size: 11px;
       padding: 15px 25px 15px 25px; } }
+
+@media (max-width: 375px) {
+  .sectionhome .imghome img {
+    width: 150px;
+    margin: 55px 5px 5px;
+    padding: 4px; }
+  .sectionhome .textohome p {
+    font-size: 12px;
+    width: 210px;
+    margin: 5px 0px 5px 5px;
+    padding: 18px;
+    padding-bottom: 35px;
+    text-align: center; }
+  .sectionhome .textohome .buttonconocenos {
+    font-size: 11px;
+    margin: -33px -340px; }
+    .sectionhome .textohome .buttonconocenos a {
+      font-size: 11px; }
+  .basehome {
+    flex-wrap: wrap;
+    margin-top: 75px; }
+    .basehome img {
+      width: 120px;
+      padding: 4px;
+      margin-top: 35px; }
+    .basehome .buttontienda a {
+      margin: 35px 10px 10px 50px;
+      font-size: 11px;
+      padding: 10px 15px 10px 15px; }
+  footer {
+    margin-bottom: -29vh; } }
 
 .esencia {
   display: flex;
@@ -219,6 +286,22 @@ main img {
   margin-left: 450px;
   margin-top: -330px; }
 
+@media (max-width: 768px) {
+  .esencia p {
+    font-size: 14px;
+    width: 300px;
+    padding: 20px;
+    padding-bottom: 30px;
+    margin: 25px; }
+  .esencia img {
+    width: 270px;
+    margin: 25px;
+    padding: 8px; }
+  main img {
+    width: 55px;
+    margin-left: 257px;
+    margin-top: -183px; } }
+
 @media (max-width: 520px) {
   .esencia p {
     width: 200px;
@@ -233,6 +316,9 @@ main img {
     width: 50px;
     margin-left: 170px;
     margin-top: -140px; } }
+
+.fondoobjetos {
+  background-color: #fdfdf6cd; }
 
 .parrafoobjetos {
   display: block;
@@ -279,6 +365,22 @@ main img {
     color: #a1866c;
     padding: 4px; }
 
+@media (max-width: 768px) {
+  .parrafoobjetos {
+    font-size: 14px;
+    padding: 18px;
+    margin: 30px; }
+  .imgobjetos {
+    margin: 54px; }
+    .imgobjetos .card {
+      width: 125px;
+      height: 160px;
+      margin: 20px 20px 5px 20px; }
+      .imgobjetos .card img {
+        width: 110px;
+        padding: 2px;
+        margin: 30px 30px 10px 30px; } }
+
 @media (max-width: 520px) {
   .parrafoobjetos {
     font-size: 12px;
@@ -295,6 +397,9 @@ main img {
     .imgobjetos .macrame .textobjetos {
       font-size: 11px;
       padding: 4px; } }
+
+.fondotienda {
+  background-color: #fdfdf6cd; }
 
 .container {
   width: 100%;
@@ -353,18 +458,14 @@ main img {
         font-weight: bold;
         transition: 0.3s; }
 
-@media (max-width: 520px) {
+@media (max-width: 768px) {
   .container {
-    margin: 10px 10px 10px 30px; }
+    margin: 50px; }
     .container .card {
-      padding: 1px;
-      width: 120px;
-      height: 230px;
-      margin: 10px;
-      margin-bottom: 50px; }
+      width: 180px;
+      height: 300px; }
       .container .card img {
-        padding: 1px;
-        width: 110px;
+        width: 170px;
         height: 250px; }
       .container .card p {
         font-size: 11px;
@@ -418,14 +519,15 @@ main img {
         color: #fdfdf6cd;
         font-weight: bold; }
 
-@media (max-width: 520px) {
+@media (max-width: 768px) {
   .form form {
-    width: 75%;
+    width: 60%;
     height: 400px;
-    margin-left: 65px;
-    padding: 5px; }
+    margin: 80px;
+    margin-left: 150px; }
     .form form input {
-      margin: 2px; }
+      margin: 2px;
+      font-size: 12px; }
     .form form textarea {
       width: 85%;
       height: 40%;
@@ -433,19 +535,26 @@ main img {
     .form form button {
       margin: 1px 135px; } }
 
-.titulo {
-  display: block; }
-  .titulo h1 {
-    font-family: "Quicksand", sans-serif;
-    font-size: 2rem;
-    background-color: #fdfdf6cd;
-    color: #a1866c;
-    text-align: left;
-    padding: 20px;
-    margin: 15px; }
-
-@media (max-width: 520px) {
-  .titulo h1 {
-    font-size: 1rem;
-    padding: 10px;
-    margin: 10px; } }
+@media (max-width: 375px) {
+  .form {
+    width: 90%; }
+    .form form {
+      width: 90%;
+      height: 350px;
+      margin-top: 10px;
+      margin-left: 35px;
+      padding: 5px; }
+      .form form input {
+        margin: 2px;
+        font-size: 12px; }
+      .form form label {
+        font-size: 13px; }
+      .form form textarea {
+        width: 95%;
+        height: 35%;
+        font-size: 12px;
+        margin: 5px; }
+      .form form button {
+        font-size: 12px;
+        margin-left: 95px;
+        margin-top: -120px; } }

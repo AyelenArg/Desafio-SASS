@@ -30,6 +30,33 @@ main img {
     margin-top: -330px;
 }
 
+// TABLET
+@media (max-width: 768px) {
+    .esencia {
+        p {
+            font-size: 14px;
+            width: 300px;
+            padding: 20px;
+            padding-bottom: 30px;
+            margin: 25px;
+
+        }
+
+        img {
+
+            width: 270px;
+            margin: 25px;
+            padding: 8px;
+
+        }
+    }
+    main img {
+        width: 55px;
+        margin-left: 257px;
+        margin-top: -183px;
+    
+}
+    }
 @media (max-width: 520px) {
     .esencia {
         p {

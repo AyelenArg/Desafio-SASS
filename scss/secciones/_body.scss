@@ -8,6 +8,7 @@ body {
     background-repeat: no-repeat;
     overflow: none;  
 
+  
     &::-webkit-scrollbar{
         width: 9px;  
         height: 10px;
@@ -23,15 +24,16 @@ body {
         border: 1px solid $basetexto;
       }
 
+    
       .fa-solid {
         position: sticky;
         font-size: 30px;
         color: $marronmedio;
         cursor: pointer;
-        right: 30px;
+        left: 15px;
         bottom: 150px;
       }
-    
+      
 }
 
 

@@ -1,5 +1,7 @@
 
-
+.fondotienda{
+    background-color: $basetexto;
+}
 .container {
     width: 100%;
     height: 100%;
@@ -70,22 +72,19 @@
     }
 
 }
-
-@media (max-width: 520px){
+//TABLET*************************
+@media (max-width: 768px){
     .container {
 
-        margin: 10px 10px 10px 30px;
+        margin: 50px;
     
         .card {
-            padding: 1px;
-            width: 120px;
-            height: 230px;
-            margin: 10px;
-            margin-bottom: 50px;
+            width: 180px;
+            height: 300px;
+            
     
             img {
-                padding: 1px;
-                width: 110px;
+                width: 170px;
                 height: 250px;
             }
     

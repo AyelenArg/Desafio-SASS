@@ -49,13 +49,26 @@
 
 
 }
-
-@media (max-width: 520px) {
+//TABLET
+@media (max-width: 768px){
     nav{
         div{
             a{
                 img{
-                    width: 80px;
+                    width: 100px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 375px) {
+    nav{
+        div{
+            a{
+                img{
+                    width: 70px;
                 }
             }
         }
