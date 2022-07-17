@@ -244,29 +244,32 @@ footer {
 @media (max-width: 375px) {
   main {
     min-height: 104vh; }
-  .sectionhome .imghome img {
-    width: 140px;
-    margin: 55px 3px 3px;
-    padding: 4px; }
-  .sectionhome .textohome p {
-    font-size: 14px;
-    width: 210px;
-    margin: 5px 3px 5px 3px;
-    padding: 13px;
-    padding-bottom: 35px;
-    text-align: center; }
-  .sectionhome .textohome .buttonconocenos {
-    font-size: 11px;
-    margin: -33px -340px; }
-    .sectionhome .textohome .buttonconocenos a {
-      font-size: 11px; }
+  .sectionhome {
+    flex-direction: column-reverse;
+    align-items: center; }
+    .sectionhome .imghome img {
+      width: 160px;
+      margin: 60px auto;
+      padding: 4px; }
+    .sectionhome .textohome p {
+      font-size: 14px;
+      width: 350px;
+      margin: 5px 10px 5px 10px;
+      padding: 13px;
+      padding-bottom: 35px;
+      text-align: center; }
+    .sectionhome .textohome .buttonconocenos {
+      font-size: 11px;
+      margin: -34px -273px; }
+      .sectionhome .textohome .buttonconocenos a {
+        font-size: 11px; }
   .basehome {
     flex-wrap: wrap;
-    margin-top: 75px; }
+    margin-top: 40px; }
     .basehome img {
       width: 120px;
       padding: 4px;
-      margin-top: 35px; }
+      margin-top: 5px; }
     .basehome .buttontienda a {
       margin: 35px 10px 10px 50px;
       font-size: 11px;
