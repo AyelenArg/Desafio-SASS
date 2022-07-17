@@ -102,7 +102,9 @@
 }
 // TABLET
 @media (max-width: 768px) {
-
+main{
+    min-height: 80vh;
+}
     .sectionhome {
         .imghome {
             img {
@@ -154,24 +156,23 @@
 //Mobile 375px
 @media(max-width: 375px){
     main{
-        min-height: 161vh;
-        max-width: 375vw;
+        min-height: 104vh;
     }
     .sectionhome {
         .imghome {
             img {
-                width: 150px;
-                margin: 55px 5px 5px;
+                width: 140px;
+                margin: 55px 3px 3px;
                 padding: 4px;
             }
         }
 
         .textohome {
             p {
-                font-size: 12px;
+                font-size: 14px;
                 width: 210px;
-                margin: 5px 0px 5px 5px;
-                padding: 18px;
+                margin: 5px 3px 5px 3px;
+                padding: 13px;
                 padding-bottom: 35px;
                 text-align: center;
             }

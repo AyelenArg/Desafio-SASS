@@ -213,6 +213,8 @@ footer {
         font-weight: bold; }
 
 @media (max-width: 768px) {
+  main {
+    min-height: 80vh; }
   .sectionhome .imghome img {
     width: 280px;
     margin: 50px 35px 40px;
@@ -241,17 +243,16 @@ footer {
 
 @media (max-width: 375px) {
   main {
-    min-height: 161vh;
-    max-width: 375vw; }
+    min-height: 104vh; }
   .sectionhome .imghome img {
-    width: 150px;
-    margin: 55px 5px 5px;
+    width: 140px;
+    margin: 55px 3px 3px;
     padding: 4px; }
   .sectionhome .textohome p {
-    font-size: 12px;
+    font-size: 14px;
     width: 210px;
-    margin: 5px 0px 5px 5px;
-    padding: 18px;
+    margin: 5px 3px 5px 3px;
+    padding: 13px;
     padding-bottom: 35px;
     text-align: center; }
   .sectionhome .textohome .buttonconocenos {
@@ -312,19 +313,21 @@ main img {
     margin-top: -183px; } }
 
 @media (max-width: 375px) {
-  .esencia p {
-    font-size: 12px;
-    width: 400px;
-    padding: 15px;
-    padding-bottom: 30px;
-    margin: 4px; }
-  .esencia img {
-    width: 150px;
-    margin: 4px;
-    padding: 4px; }
+  .esencia {
+    flex-direction: column-reverse; }
+    .esencia p {
+      font-size: 14px;
+      width: 300px;
+      padding: 12px;
+      padding-bottom: 30px;
+      margin: 1px 2px 2px 1px; }
+    .esencia img {
+      width: 150px;
+      margin-top: 3px;
+      padding: 4px; }
   main img {
-    width: 35px;
-    margin-left: 130px;
+    width: 45px;
+    margin-left: 240px;
     margin-top: -130px; } }
 
 .fondoobjetos {
@@ -393,9 +396,9 @@ main img {
 
 @media (max-width: 520px) {
   .parrafoobjetos {
-    font-size: 12px;
-    padding: 18px;
-    margin: 30px; }
+    font-size: 14px;
+    padding: 13px;
+    margin: 15px; }
   .imgobjetos {
     flex-wrap: wrap;
     margin: 10px; }
